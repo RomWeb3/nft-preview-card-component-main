@@ -43,6 +43,7 @@ body {
 .img::after {
 content: url("./images/icon-view.svg") ;
 position: absolute;
+border-radius: 10px;
 left: 0;
 top:0;
 width: 100%;
@@ -53,7 +54,8 @@ opacity: 0;
 display: flex;
 justify-content: center;
 align-items: center;
-cursor: pointer;   
+cursor: pointer;
+
 }
 
 .img:hover::after{
